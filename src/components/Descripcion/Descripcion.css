@@ -1,0 +1,30 @@
+.boton_cierre{
+    color: #223142;
+    background-color: #b1f0dc;
+    margin-left: auto;
+}
+
+.lista_desordenada{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+}
+
+.padding_piola{
+    padding: 5px;
+}
+
+
+.lista_desordenada li:hover{
+    background-color: #69baa0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #223142;
+}

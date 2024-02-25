@@ -1,0 +1,30 @@
+.color_fondo{
+    background-color: rgba(92,117,146,.9);
+    margin: 30px 14%;
+    padding: 45px 150px;
+}
+
+.color_texto{
+    color: #223142;
+}
+
+.text_area{
+    height: 275px;
+}
+
+.boton_form{
+    background-color: #223142;
+    color: #b1f0dc;
+    border-radius: 10px;
+}
+
+.boton_form:hover{
+    color: #223142;
+    background-color: #b1f0dc;
+}
+
+@media screen and (max-widht: 576px){
+    .color_fondo{
+        padding: 10px 10px !important;
+    }
+}

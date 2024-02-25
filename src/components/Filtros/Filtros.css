@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+    .formulario{
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+.non_display{
+    display: none !important;
+}
+
+.non_display_expandir{
+    display: block !important;
+}
+
+}
+
+
+
+.background_color{
+    background-color: #344d67;
+}
+
+.non_display{
+    display: block;
+}
+
+.non_display_expandir{
+    display: none;
+}

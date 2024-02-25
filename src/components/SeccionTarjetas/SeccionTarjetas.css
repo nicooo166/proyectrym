@@ -1,0 +1,9 @@
+.fuenteBlanca{
+    color: rgb(255, 255, 255)
+}
+
+.acomodar-tarjetas{
+    display: flex;
+    justify-content: center;
+    
+}

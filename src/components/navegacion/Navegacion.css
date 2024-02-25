@@ -1,0 +1,41 @@
+.mod_nav{
+    background-color: #344D67;
+    padding: 60px 100px;
+}
+
+
+.active{
+    background-color: #6eccaf;
+    color: #344d67 !important;
+    
+}
+
+.verde_claro_titulo{
+    color: #b1f0dc !important;
+}
+.verde_claro{
+    color: #b1f0dc !important;
+}
+
+.verde_claro:hover{
+    background-color: #6eccaf;
+    color: #344d67 !important 
+}
+
+.nav-link{
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap:15px;
+}
+
+.icono_hamburguesa{
+    height: 35px;
+    width: 35px;
+}
+
+.padding_navegacion{
+    padding-top: 10px;
+}

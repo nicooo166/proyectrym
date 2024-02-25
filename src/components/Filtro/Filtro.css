@@ -1,0 +1,19 @@
+.filtro_color{
+    background-color: #223142;
+}
+
+.input_color{
+    background-color: #8cfbd8;
+}
+
+.input_color:checked{
+    background-color: #1a2633;
+}
+
+.celeste{
+    color: #8cfbd8 !important;
+}
+
+.blanco{
+    color:white;
+}

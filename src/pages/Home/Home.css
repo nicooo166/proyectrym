@@ -1,0 +1,68 @@
+.bg_white{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 5%;
+    width: 40%;
+}
+
+.verde_oscuro{
+    color: #223142;
+}
+
+.org_boton{
+    display: flex;
+    justify-content: center;
+}
+ .t_1{
+    font-size: 40px;
+    margin-top: 45px
+ }
+
+ .t_2{
+    margin: 30px 0px;
+ }
+
+ .t_3{
+    margin-top: 33px;
+ }
+
+ .t_4{
+    margin: 10px 2px;
+ }
+
+ .t_6{
+    margin-top: 32px;
+ }
+
+ @media screen and (max-width: 576px) {
+   .bg_white{
+      width: 90%;
+   }
+   .t1{
+      font-size: 16px !important; /*no se por qué los medias query en general no me funcionan, pero probé el mismo código en otra pc y funciona bien, entiendo que es un problema de mi pc*/
+   }
+ }
+
+ @media screen and (max-width: 768px){
+   .bg_white{
+      width: 75%;
+   }
+
+   .t2{
+      color: #6eccaf;
+   }
+   .t6{
+      color: #6eccaf;
+   }
+ }
+
+ @media screen and (max-width: 992px){
+   .bg_white{
+      width: 60%;
+   }
+ }
+
+ @media screen and (max-width: 1200px){
+   .bg_white{
+      width: 53%;
+   }
+ }
